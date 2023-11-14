@@ -5,7 +5,7 @@ export function Projects() {
         {
             title: "Starbucks-Lading-Page",
             description: "Landing Page da Starbucks usando Html CSS & Javascript",
-            image: "#",
+            image: "./img/Starbucks.png",
             link: "https://alissonlins.github.io/Starbucks-Lading-Page/#",
             colSpan: "col-span-1 md:col-span-2",
         },
@@ -26,7 +26,7 @@ export function Projects() {
         {
             title: "Lading-Page-Bot",
             description: "Lading-page de um bot para discord, projeto criado baseado em uma aula.",
-            image: "#",
+            image: "./img/balebot.png",
             link: "https://alissonlins.github.io/Lading-Page/",
             colSpan: "col-span-1 md:col-span-2",
         }
