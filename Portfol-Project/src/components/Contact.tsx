@@ -1,6 +1,7 @@
-import emailjs from "@emailjs/browser"
+import emailjs from '@emailjs/browser';
 import { FormEvent, useRef, useState } from "react"
-import { FaSpinner, FaWhatsapp } from "react-icons/fa"
+import {  FaWhatsapp } from "react-icons/fa"
+import { GrUpdate } from "react-icons/gr";
 import { HiCheckCircle, HiOutlineEnvelope, HiOutlineMapPin } from "react-icons/hi2"
 
 export function Contact() {
@@ -126,7 +127,7 @@ export function Contact() {
                                     className="button p-1 text-sm flex items-center gap-2 border border-white bg-blue-50 text-blue-700"
                                     disabled={loading}
                                 >
-                                    {loading && <FaSpinner className="h-4 w-4 animate-spin" />}
+                                    {loading && <GrUpdate  className="h-4 w-4 animate-spin" />}
                                     {success && <HiCheckCircle className="h-4 w-4" />}
                                     Enviar mensagem
                                 </button>
